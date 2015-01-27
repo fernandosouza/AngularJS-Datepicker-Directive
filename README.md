@@ -4,15 +4,14 @@ Diretiva super simples de date picker exibindo no input a data no formato especi
 
 ## Dependencias
 
-- AngualarJS
 - Bootstrap
 - jQuery
 - Bootstrap-datepicker ([Documentation](https://bootstrap-datepicker.readthedocs.org/en/release/ "Bootstrap-datepicker"))
-- MomentJS
+- MomentJS ([Documentation](http://momentjs.com/ "MomentJS"))
 
 ## Como instalar
 
-'bower install --save angular-datepicker'
+´bower install --save angular-datepicker´
 
 ## Como usar
 
