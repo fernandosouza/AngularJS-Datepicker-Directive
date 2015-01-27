@@ -8,7 +8,7 @@
 </head>
 <body ng-controller="PickDate">
 
-	<input type="text" date ng-model="date" />
+	<input type="text" date ng-model="date" on-change-date="onChangeDateFn(date)" />
 	Model value: {{ date }}
 
 <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
