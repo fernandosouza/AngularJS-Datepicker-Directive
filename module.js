@@ -1,2 +1,4 @@
-angular
-	.module('angular-datepicker', []);
+(function(){
+	angular
+		.module('angular-datepicker', []);
+})();

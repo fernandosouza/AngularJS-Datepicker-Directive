@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
 	<title>Angular Dapicker Directive Demo</title>
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../bower_components/bootstrap-datepicker/css/datepicker3.css" />
 </head>
 <body>
+
+	<input type="text" date ng-model="date" />
+	Model value: {{ date }}
 
 <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="../bower_components/moment/min/moment-with-locales.min.js"></script>
 <script type="text/javascript" src="../bower_components/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
 <script type="text/javascript" src="../bower_components/angularjs/angular.min.js"></script>
 <script type="text/javascript" src="../module.js"></script>
+<script type="text/javascript" src="../directive.js"></script>
 <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
