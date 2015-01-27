@@ -1,6 +1,6 @@
 {
-  "name": "angular-datepicker",
-  "version": "0.0.0",
+  "name": "simple-angular-datepicker",
+  "version": "1.0.0",
   "description": "A simples angular js datepicker directive",
   "keywords": [
     "angularjs",
@@ -8,7 +8,7 @@
     "directive"
   ],
   "authors": [
-    "Fernando Souza"
+    "Fernando Souza <nandosouzafilho@gmail.com>"
   ],
   "license": "MIT",
   "ignore": [
