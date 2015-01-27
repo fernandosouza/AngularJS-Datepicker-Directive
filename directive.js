@@ -4,7 +4,6 @@
             restrict: 'A',
             require: 'ngModel',
             scope: {
-                "date": "=",
                 "onChangeDate": "&"
             },
             link: function(scope, element, attrs, controller){
