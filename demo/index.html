@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html ng-app="app">
 <head>
+	<meta charset="UTF-8" />
 	<title>Angular Dapicker Directive Demo</title>
 	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="../bower_components/bootstrap-datepicker/css/datepicker3.css" />
 </head>
-<body>
+<body ng-controller="PickDate">
 
 	<input type="text" date ng-model="date" />
 	Model value: {{ date }}
