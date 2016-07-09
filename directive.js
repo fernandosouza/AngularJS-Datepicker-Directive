@@ -21,19 +21,19 @@
                     value = value.replace(/[/]/, '');
 
                     if(value.length == 2){
-                            formated = value + '/';
-                        }
+                        formated = value + '/';
+                    }
 
-                        if(value.length == 4){
-                            formated = formated + '/';
-                        }
+                    if(value.length == 4){
+                        formated = formated + '/';
+                    }
 
-                        if(value.length > 8){
-                            formated = formated.slice(0,10);
-                        }
+                    if(value.length > 8){
+                        formated = formated.slice(0,10);
+                    }
 
-                        controller.$viewValue = formated;
-                        controller.$render();
+                    controller.$viewValue = formated;
+                    controller.$render();
                 });
 
                 controller.$parsers.push(function(value){
